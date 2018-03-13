@@ -29,6 +29,7 @@
     "react/prop-types": [0],
     "react/no-direct-mutation-state": [2],
     "react/jsx-no-target-blank": [0],
-    "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react/sort-comp": [0]
   }
 }

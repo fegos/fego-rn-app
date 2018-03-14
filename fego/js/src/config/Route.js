@@ -4,6 +4,7 @@
  */
 import { TabNavigator } from 'react-navigation';
 import MainTabRoute from 'src/main/Route';
+import UserRoute from 'src/user/Route';
 import TabOpt from './TabOpt';
 import StackOpt from './StackOpt';
 
@@ -25,6 +26,7 @@ export default {
         header: false,
       },
     },
+    ...UserRoute,
   },
   stackOpt: _StackOpt,
 };

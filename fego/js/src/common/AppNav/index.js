@@ -14,7 +14,7 @@ const defaultConfig = {
   rootName: 'Root',
   // loginName: 'user/Login',
 
-  topRoutes: ['Root', 'Home', 'Position', 'My'], // 'user/Login',
+  topRoutes: ['Root', 'user/Login', 'Home', 'Position', 'My'], // 'user/Login',
 };
 // 缓存导航容器，防止重复创建
 let NavDecoratorCache;

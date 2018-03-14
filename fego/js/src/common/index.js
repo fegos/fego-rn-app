@@ -4,6 +4,8 @@ import Style from './Style';
 import Const from './Const';
 // import Service from './Service'
 import Page from './Page';
+import UserInfo from './UserInfo';
+
 
 export {
   // Core,
@@ -11,8 +13,9 @@ export {
   AppNav,
   Style,
   Const,
+  UserInfo,
   // Service
 };
 // export * from './ui'
 // export * from './util'
-// export * from './data'
+// export * from './data';

@@ -62,6 +62,7 @@ build/
 DerivedData
 Pods
 Podfile.lock
+ios/ip.txt
 *.xcuserstate
 xcuserdata
 *.hmap

@@ -251,7 +251,6 @@
 			buildPhases = (
 				BE17DD6B6A9E894F50468055 /* [CP] Check Pods Manifest.lock */,
 				137BA19E7C25B9593DDF00D2 /* SetIP */,
-				F755C8F73E134280A3907F21 /* SetIP */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -411,7 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ip=$(ifconfig | grep 'inet 10.' | head -1 | cut -d \" \" -f 2)\necho $ip\nsed -i \"\" '1 c\\'$'\\n'$ip$'\\n' ip.txt";
+			shellScript = "ip=$(ifconfig | grep 'inet 10.' | head -1 | cut -d \" \" -f 2)\nif [ ! -f ip.txt ]; then\ntouch ip.txt\nruby ../tools/xcodeFileManager.rb ../ios fego add ip.txt\nfi\necho $ip >ip.txt";
 		};
 		1BFF1256557A586645771A35 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -507,20 +506,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fego/Pods-fego-resources.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		F755C8F73E134280A3907F21 /* SetIP */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SetIP;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "ip=$(ifconfig | grep 'inet 10.' | head -1 | cut -d \" \" -f 2)\necho $ip\nsed -i \"\" '1 c\\'$'\\n'$ip$'\\n' ip.txt";
 		};
 		FB4599201CBAE43F6BD73708 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

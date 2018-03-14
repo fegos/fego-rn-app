@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C302E51ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		00C302E71ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		00C302E81ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		00C302E91ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		00C302EA1ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E51ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E71ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E81ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E91ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		00C302EA1ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		00E356F31AD99517003FC87E /* fegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* fegoTests.m */; };
-		133E29F31AD74F7200F7D852 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		139105C61AF99C1200B5F7CC /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		139FDEF61B0652A700C62182 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		133E29F31AD74F7200F7D852 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		139105C61AF99C1200B5F7CC /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		139FDEF61B0652A700C62182 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		140ED2AC1D01E1AD002B40FF /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		146834051AC3E58100842450 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		140ED2AC1D01E1AD002B40FF /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		146834051AC3E58100842450 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		1E6D63F4512F0995E0990E9C /* libPods-fego.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14814C967D0360BD47476A8F /* libPods-fego.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4C21E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C31E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C41E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C51E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C61E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C71E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C81E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C91E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C21E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C31E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C41E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C51E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C61E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C71E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C81E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C91E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		2DCD954D1E0B4F2C00145EB5 /* fegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* fegoTests.m */; };
-		5E9157361DD0AC6A00FF2AA8 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		832341BD1AAA6AB300B99B32 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5E9157361DD0AC6A00FF2AA8 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		832341BD1AAA6AB300B99B32 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		CFE829283C2001D1AD95AEDA /* ip.txt in Resources */ = {isa = PBXBuildFile; fileRef = CCAD68EA08FF49D02CEAA4A8 /* ip.txt */; };
 		D549224F7814A142B67A2825 /* libPods-fegoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AEA285D4A1373B208F8A70 /* libPods-fegoTests.a */; };
 		FD72713E2ED54A17AB2F2620 /* NIPRnHotReload.app in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAEFA89C4C145AE855A257A /* NIPRnHotReload.app */; };
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140ED2AC1D01E1AD002B40FF /* (null) in Frameworks */,
+				140ED2AC1D01E1AD002B40FF /* BuildFile in Frameworks */,
 				D549224F7814A142B67A2825 /* libPods-fegoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,17 +96,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146834051AC3E58100842450 /* (null) in Frameworks */,
-				5E9157361DD0AC6A00FF2AA8 /* (null) in Frameworks */,
-				00C302E51ABCBA2D00DB3ED1 /* (null) in Frameworks */,
-				00C302E71ABCBA2D00DB3ED1 /* (null) in Frameworks */,
-				00C302E81ABCBA2D00DB3ED1 /* (null) in Frameworks */,
-				133E29F31AD74F7200F7D852 /* (null) in Frameworks */,
-				00C302E91ABCBA2D00DB3ED1 /* (null) in Frameworks */,
-				139105C61AF99C1200B5F7CC /* (null) in Frameworks */,
-				832341BD1AAA6AB300B99B32 /* (null) in Frameworks */,
-				00C302EA1ABCBA2D00DB3ED1 /* (null) in Frameworks */,
-				139FDEF61B0652A700C62182 /* (null) in Frameworks */,
+				146834051AC3E58100842450 /* BuildFile in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* BuildFile in Frameworks */,
+				00C302E51ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
+				00C302E71ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
+				133E29F31AD74F7200F7D852 /* BuildFile in Frameworks */,
+				00C302E91ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
+				139105C61AF99C1200B5F7CC /* BuildFile in Frameworks */,
+				832341BD1AAA6AB300B99B32 /* BuildFile in Frameworks */,
+				00C302EA1ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
+				139FDEF61B0652A700C62182 /* BuildFile in Frameworks */,
 				FD72713E2ED54A17AB2F2620 /* NIPRnHotReload.app in Frameworks */,
 				1E6D63F4512F0995E0990E9C /* libPods-fego.a in Frameworks */,
 			);
@@ -116,14 +116,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4C91E0B4AEC006451C7 /* (null) in Frameworks */,
-				2D02E4C21E0B4AEC006451C7 /* (null) in Frameworks */,
-				2D02E4C31E0B4AEC006451C7 /* (null) in Frameworks */,
-				2D02E4C41E0B4AEC006451C7 /* (null) in Frameworks */,
-				2D02E4C51E0B4AEC006451C7 /* (null) in Frameworks */,
-				2D02E4C61E0B4AEC006451C7 /* (null) in Frameworks */,
-				2D02E4C71E0B4AEC006451C7 /* (null) in Frameworks */,
-				2D02E4C81E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C91E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C21E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C31E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C41E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C51E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C61E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C71E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C81E0B4AEC006451C7 /* BuildFile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +471,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BE17DD6B6A9E894F50468055 /* [CP] Check Pods Manifest.lock */ = {
@@ -489,7 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F5C26058203C38A5D75C470B /* [CP] Copy Pods Resources */ = {

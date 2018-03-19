@@ -185,7 +185,7 @@ export default class Home extends Page {
     ImagePicker.openPicker({
       cropping: true,
     }).then((image) => {
-      this.setState({ avater: { uri: image.sourceURL } });
+      this.setState({ avater: { uri: image.path } });
     }).catch((e) => {
       Alert.alert(e.message ? e.message : e);
     });

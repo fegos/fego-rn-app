@@ -1,4 +1,8 @@
-import { View, Text, StyleSheet, Dimensions, Image, TouchableHighlight } from 'react-native';
+import {
+  View, Text, StyleSheet, Dimensions, Image,
+  TouchableHighlight, FlatList, CameraRoll,
+  Modal, ScrollView,
+} from 'react-native';
 import { Page, AppNav } from 'common';
 import React from 'react';
 
@@ -39,9 +43,92 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
   },
+  modalContainer: {
+    paddingTop: 20,
+    flex: 1,
+  },
+  scrollView: {
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+  },
 });
 
 export default class Home extends Page {
+  constructor(props) {
+    super(props);
+    this.data = [
+      {
+        id: '蚂蚁会员',
+        img: require('./1.jpg'),
+        title: '蚂蚁会员',
+        rightItem: {
+          item:
+  <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+    <Text style={{ fontSize: 12, color: 'gray' }} > 提现服务免费限时兑换 </Text>
+    <View style={{
+          width: 4, height: 4, borderRadius: 4, backgroundColor: 'red',
+          }}
+    />
+  </View>,
+        },
+        routeURL: 'Position',
+        isLast: false,
+        render: true,
+      },
+      {
+        id: '蚂蚁会员-', render: false,
+      },
+      {
+        id: '账单', img: require('./3.jpg'), title: '账单', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '总资产', img: require('./4.jpg'), title: '总资产', rightItem: { item: <Text style={{ fontSize: 12, color: 'green' }}> 账户资产保障中</Text> }, routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '余额', img: require('./5.jpg'), title: '余额', rightItem: { item: <Text style={{ fontSize: 12, color: 'gray' }}> 100000.00元 </Text> }, routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '余额宝', img: require('./6.jpg'), title: '余额宝', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '银行卡', img: require('./1.jpg'), title: '银行卡', routeURL: 'Position', isLast: true, render: true,
+      },
+      {
+        id: '银行卡-', render: false,
+      },
+      {
+        id: '蚂蚁财富', img: require('./3.jpg'), title: '蚂蚁财富', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '芝麻信用', img: require('./4.jpg'), title: '芝麻信用', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '保险服务', img: require('./5.jpg'), title: '保险服务', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '花呗', img: require('./6.jpg'), title: '花呗', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '蚂蚁借呗', img: require('./1.jpg'), title: '蚂蚁借呗', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '网商银行', img: require('./2.jpg'), title: '网商银行', routeURL: 'Position', isLast: true, render: true,
+      },
+      {
+        id: '网商银行-', render: false,
+      },
+      {
+        id: '公益', img: require('./4.jpg'), title: '公益', routeURL: 'Position', isLast: false, render: true,
+      },
+      {
+        id: '娱乐宝', img: require('./5.jpg'), title: '娱乐宝', routeURL: 'Position', isLast: true, render: true,
+      },
+    ];
+    this.state = {
+      selected: new Map(), avater: require('./my-icon.jpeg'), photos: [], modalVisible: false,
+    };
+  }
+
   onRefresh(PullRefresh) {
     console.log('refresh');
     setTimeout(() => {
@@ -49,7 +136,7 @@ export default class Home extends Page {
     }, 1500);
   }
 
-  renderListItem = (img, title, subtitle, routeURL, isLast) => {
+  renderListItem = (img, title, routeURL, rightItem, isLast) => {
     const borderBottomColor = isLast ? 'transparent' : '#b3b3b3';
     const borderBottomWidth = isLast ? 0 : StyleSheet.hairlineWidth;
     return (
@@ -68,26 +155,52 @@ export default class Home extends Page {
               flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end',
               }}
             >
-              <Text style={{ marginRight: 5 }}>{subtitle}</Text>
-              <Text style={{ marginRight: 16 }}> {'>'} </Text>
+              { rightItem ? rightItem.item : null }
+
+              <Text style={{ marginRight: 16, width: 14 }}> { '>' } </Text>
+
             </View>
           </View>
         </View>
       </TouchableHighlight>
-    )
+    );
   }
 
   renderEmptyItem = () => (
     <View style={{ height: 14, width }} />
   )
 
+  _renderItem = ({ item }) => {
+    if (item.render) {
+      const {
+        img, title, rightItem, routeURL, isLast,
+      } = item;
+      return this.renderListItem(img, title, routeURL, rightItem, isLast);
+    } else {
+      return this.renderEmptyItem();
+    }
+  }
+
+  _changeAvater=() => {
+    this.setState({ modalVisible: true });
+    CameraRoll.getPhotos({
+      first: 20,
+      assetType: 'All',
+    })
+      .then(r => this.setState({ photos: r.edges }));
+  }
+
+  _setAvater= (uri) => {
+    this.setState({ avater: { uri }, modalVisible: false });
+  }
+
+  _keyExtractor = item => item.id;
+
   render() {
     return (
       <View style={styles.container} >
         <RefreshView onRefresh={PullRefresh => this.onRefresh(PullRefresh)}>
-          {
-            // userinfo
-          }
+          { /* userinfo */ }
           <View style={styles.header}>
             <View style={styles.userInfo} >
               <Text style={{ flex: 1 }} />
@@ -107,7 +220,9 @@ export default class Home extends Page {
               </Text>
             </View>
             <View style={styles.userInfo}>
-              <Image source={require('./my-icon.jpeg')} style={{ width: 50, height: 50, borderRadius: 5 }} />
+              <TouchableHighlight onPress={this._changeAvater}>
+                <Image source={this.state.avater} style={{ width: 50, height: 50, borderRadius: 5 }} />
+              </TouchableHighlight>
               <View style={{ marginLeft: 10, justifyContent: 'space-between' }}>
                 <Text style={{ color: '#ffffff' }}>Fego-app</Text>
                 <View style={{ height: 10 }} />
@@ -118,19 +233,47 @@ export default class Home extends Page {
               </View>
             </View>
           </View>
-          {
-            // list item
-          }
+          {/* list */}
           <View style={styles.list} >
-            { this.renderListItem(require('./1.jpg'), '账单', '1', 'Position', true) }
-            { this.renderEmptyItem() }
-            { this.renderListItem(require('./1.jpg'), '账单', '2', 'Position', false) }
-            { this.renderListItem(require('./1.jpg'), '账单', '3', 'Position', false) }
-            { this.renderListItem(require('./1.jpg'), '账单', '4', 'Position', false) }
-            { this.renderListItem(require('./1.jpg'), '账单', '', 'Position', true) }
+            <FlatList
+              data={this.data}
+              extraData={this.state}
+              keyExtractor={this._keyExtractor}
+              renderItem={this._renderItem}
+            />
           </View>
-
         </RefreshView>
+        <Modal
+          animationType="slide"
+          transparent={false}
+          visible={this.state.modalVisible}
+          onRequestClose={() => console.log('closed')}
+        >
+          <View style={styles.modalContainer}>
+            <ScrollView
+              contentContainerStyle={styles.scrollView}
+            >
+              {
+          this.state.photos.map(p => (
+            <TouchableHighlight
+
+              key={p.node.image.uri}
+              underlayColor="transparent"
+              onPress={() => this._setAvater(p.node.image.uri)}
+            >
+              <Image
+                style={{
+                    width: width / 3,
+                    height: width / 3,
+                  }}
+                source={{ uri: p.node.image.uri }}
+              />
+            </TouchableHighlight>
+            ))
+        }
+            </ScrollView>
+          </View>
+        </Modal>
       </View>
     );
   }

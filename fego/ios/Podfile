@@ -19,6 +19,7 @@ def mainPods
 	'RCTLinkingIOS',
 	'ART',
 	'RCTAnimation',
+	'RCTCameraRoll',
 	'RCTWebSocket', # needed for debugging
 	'jschelpers_legacy',
 	'cxxreact_legacy',

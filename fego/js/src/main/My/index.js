@@ -1,12 +1,12 @@
 import {
   View, Text, StyleSheet, Dimensions, Image,
-  TouchableHighlight, FlatList, CameraRoll,
-  Modal, ScrollView,
+  TouchableHighlight, FlatList, Alert,
 } from 'react-native';
 import { Page, AppNav } from 'common';
 import React from 'react';
 
 import { RefreshView } from 'fego-rn';
+import ImagePicker from 'react-native-image-crop-picker';
 
 const { width, height } = Dimensions.get('window');
 
@@ -125,7 +125,7 @@ export default class Home extends Page {
       },
     ];
     this.state = {
-      selected: new Map(), avater: require('./my-icon.jpeg'), photos: [], modalVisible: false,
+      selected: new Map(), avater: require('./my-icon.jpeg'),
     };
   }
 
@@ -141,7 +141,7 @@ export default class Home extends Page {
     const borderBottomWidth = isLast ? 0 : StyleSheet.hairlineWidth;
     return (
       <TouchableHighlight onPress={() => {
-          // AppNav.nav(routeURL);
+          AppNav.nav(routeURL);
         }}
       >
         <View style={styles.listItem}>
@@ -182,16 +182,13 @@ export default class Home extends Page {
   }
 
   _changeAvater=() => {
-    this.setState({ modalVisible: true });
-    CameraRoll.getPhotos({
-      first: 20,
-      assetType: 'All',
-    })
-      .then(r => this.setState({ photos: r.edges }));
-  }
-
-  _setAvater= (uri) => {
-    this.setState({ avater: { uri }, modalVisible: false });
+    ImagePicker.openPicker({
+      cropping: true,
+    }).then((image) => {
+      this.setState({ avater: { uri: image.sourceURL } });
+    }).catch((e) => {
+      Alert.alert(e.message ? e.message : e);
+    });
   }
 
   _keyExtractor = item => item.id;
@@ -243,37 +240,6 @@ export default class Home extends Page {
             />
           </View>
         </RefreshView>
-        <Modal
-          animationType="slide"
-          transparent={false}
-          visible={this.state.modalVisible}
-          onRequestClose={() => console.log('closed')}
-        >
-          <View style={styles.modalContainer}>
-            <ScrollView
-              contentContainerStyle={styles.scrollView}
-            >
-              {
-          this.state.photos.map(p => (
-            <TouchableHighlight
-
-              key={p.node.image.uri}
-              underlayColor="transparent"
-              onPress={() => this._setAvater(p.node.image.uri)}
-            >
-              <Image
-                style={{
-                    width: width / 3,
-                    height: width / 3,
-                  }}
-                source={{ uri: p.node.image.uri }}
-              />
-            </TouchableHighlight>
-            ))
-        }
-            </ScrollView>
-          </View>
-        </Modal>
       </View>
     );
   }

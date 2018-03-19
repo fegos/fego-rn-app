@@ -7,38 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C302E51ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		00C302E71ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		00C302E81ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		00C302E91ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		00C302EA1ABCBA2D00DB3ED1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E51ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E71ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E81ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		00C302E91ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		00C302EA1ABCBA2D00DB3ED1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		00E356F31AD99517003FC87E /* fegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* fegoTests.m */; };
-		133E29F31AD74F7200F7D852 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		139105C61AF99C1200B5F7CC /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		139FDEF61B0652A700C62182 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		133E29F31AD74F7200F7D852 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		139105C61AF99C1200B5F7CC /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		139FDEF61B0652A700C62182 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		140ED2AC1D01E1AD002B40FF /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		146834051AC3E58100842450 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		140ED2AC1D01E1AD002B40FF /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		146834051AC3E58100842450 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		1E6D63F4512F0995E0990E9C /* libPods-fego.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14814C967D0360BD47476A8F /* libPods-fego.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4C21E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C31E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C41E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C51E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C61E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C71E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C81E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		2D02E4C91E0B4AEC006451C7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C21E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C31E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C41E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C51E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C61E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C71E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C81E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2D02E4C91E0B4AEC006451C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		2DCD954D1E0B4F2C00145EB5 /* fegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* fegoTests.m */; };
 		3938A546C2900F12AB74B92E /* ip.txt in Resources */ = {isa = PBXBuildFile; fileRef = FEDCD881A9527568A5037974 /* ip.txt */; };
-		5E9157361DD0AC6A00FF2AA8 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		832341BD1AAA6AB300B99B32 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		5E9157361DD0AC6A00FF2AA8 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		832341BD1AAA6AB300B99B32 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		D549224F7814A142B67A2825 /* libPods-fegoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AEA285D4A1373B208F8A70 /* libPods-fegoTests.a */; };
+		DD49C47869C74DB5B38F1308 /* libimageCropPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7530380D9A61410B91235CBD /* libimageCropPicker.a */; };
 		FD72713E2ED54A17AB2F2620 /* NIPRnHotReload.app in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAEFA89C4C145AE855A257A /* NIPRnHotReload.app */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "fego-tvOS";
+		};
+		DC3D840F205FB7980092F26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D5006FC2314700A4F43AC9 /* imageCropPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3400A8081CEB54A6008A0BC7;
+			remoteInfo = imageCropPicker;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -76,10 +84,12 @@
 		2EAEFA89C4C145AE855A257A /* NIPRnHotReload.app */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NIPRnHotReload.app; sourceTree = "<group>"; };
 		4632F49D2594368EA9D2704F /* Pods-fegoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fegoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fegoTests/Pods-fegoTests.release.xcconfig"; sourceTree = "<group>"; };
 		55F3BB95D590C66C1155E8A8 /* Pods-fego.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fego.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fego/Pods-fego.debug.xcconfig"; sourceTree = "<group>"; };
+		7530380D9A61410B91235CBD /* libimageCropPicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libimageCropPicker.a; sourceTree = "<group>"; };
 		A2D287E8D9D4482B492FE164 /* Pods-fegoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fegoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fegoTests/Pods-fegoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1AEA285D4A1373B208F8A70 /* libPods-fegoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fegoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D5006FC2314700A4F43AC9 /* imageCropPicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = imageCropPicker.xcodeproj; path = "../node_modules/react-native-image-crop-picker/ios/imageCropPicker.xcodeproj"; sourceTree = "<group>"; };
 		F83FD1DB837648BCCB4EF969 /* Pods-fego.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fego.release.xcconfig"; path = "Pods/Target Support Files/Pods-fego/Pods-fego.release.xcconfig"; sourceTree = "<group>"; };
-		FEDCD881A9527568A5037974 /* ip.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = ip.txt; sourceTree = "<group>"; };
+		FEDCD881A9527568A5037974 /* ip.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ip.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140ED2AC1D01E1AD002B40FF /* BuildFile in Frameworks */,
+				140ED2AC1D01E1AD002B40FF /* (null) in Frameworks */,
 				D549224F7814A142B67A2825 /* libPods-fegoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,19 +106,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146834051AC3E58100842450 /* BuildFile in Frameworks */,
-				5E9157361DD0AC6A00FF2AA8 /* BuildFile in Frameworks */,
-				00C302E51ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
-				00C302E71ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
-				00C302E81ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
-				133E29F31AD74F7200F7D852 /* BuildFile in Frameworks */,
-				00C302E91ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
-				139105C61AF99C1200B5F7CC /* BuildFile in Frameworks */,
-				832341BD1AAA6AB300B99B32 /* BuildFile in Frameworks */,
-				00C302EA1ABCBA2D00DB3ED1 /* BuildFile in Frameworks */,
-				139FDEF61B0652A700C62182 /* BuildFile in Frameworks */,
+				146834051AC3E58100842450 /* (null) in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* (null) in Frameworks */,
+				00C302E51ABCBA2D00DB3ED1 /* (null) in Frameworks */,
+				00C302E71ABCBA2D00DB3ED1 /* (null) in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* (null) in Frameworks */,
+				133E29F31AD74F7200F7D852 /* (null) in Frameworks */,
+				00C302E91ABCBA2D00DB3ED1 /* (null) in Frameworks */,
+				139105C61AF99C1200B5F7CC /* (null) in Frameworks */,
+				832341BD1AAA6AB300B99B32 /* (null) in Frameworks */,
+				00C302EA1ABCBA2D00DB3ED1 /* (null) in Frameworks */,
+				139FDEF61B0652A700C62182 /* (null) in Frameworks */,
 				FD72713E2ED54A17AB2F2620 /* NIPRnHotReload.app in Frameworks */,
 				1E6D63F4512F0995E0990E9C /* libPods-fego.a in Frameworks */,
+				DD49C47869C74DB5B38F1308 /* libimageCropPicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,14 +127,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4C91E0B4AEC006451C7 /* BuildFile in Frameworks */,
-				2D02E4C21E0B4AEC006451C7 /* BuildFile in Frameworks */,
-				2D02E4C31E0B4AEC006451C7 /* BuildFile in Frameworks */,
-				2D02E4C41E0B4AEC006451C7 /* BuildFile in Frameworks */,
-				2D02E4C51E0B4AEC006451C7 /* BuildFile in Frameworks */,
-				2D02E4C61E0B4AEC006451C7 /* BuildFile in Frameworks */,
-				2D02E4C71E0B4AEC006451C7 /* BuildFile in Frameworks */,
-				2D02E4C81E0B4AEC006451C7 /* BuildFile in Frameworks */,
+				2D02E4C91E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C21E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C31E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C41E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C51E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C61E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C71E0B4AEC006451C7 /* (null) in Frameworks */,
+				2D02E4C81E0B4AEC006451C7 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +187,14 @@
 			name = fego;
 			sourceTree = "<group>";
 		};
+		7ABD3DBA35C44502A08EEC3B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5006FC2314700A4F43AC9 /* imageCropPicker.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +205,7 @@
 				119F16FDE4F35EC87E8E3BCE /* Frameworks */,
 				B0308D942056B336004CBB55 /* Recovered References */,
 				FEDCD881A9527568A5037974 /* ip.txt */,
+				7ABD3DBA35C44502A08EEC3B /* Libraries */,
 			);
 			indentWidth = 2;
 			sourceTree = SOURCE_ROOT;
@@ -206,8 +226,17 @@
 			isa = PBXGroup;
 			children = (
 				2EAEFA89C4C145AE855A257A /* NIPRnHotReload.app */,
+				7530380D9A61410B91235CBD /* libimageCropPicker.a */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		DC3D840C205FB7980092F26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D8410205FB7980092F26B /* libimageCropPicker.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E99D75C92FDF646F2D8034FE /* Pods */ = {
@@ -338,6 +367,12 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DC3D840C205FB7980092F26B /* Products */;
+					ProjectRef = F3D5006FC2314700A4F43AC9 /* imageCropPicker.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* fego */,
@@ -347,6 +382,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DC3D8410205FB7980092F26B /* libimageCropPicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libimageCropPicker.a;
+			remoteRef = DC3D840F205FB7980092F26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -498,9 +543,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fego/Pods-fego-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -599,12 +649,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/fego-rn-update/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 				);
 				INFOPLIST_FILE = fegoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -625,12 +677,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/fego-rn-update/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 				);
 				INFOPLIST_FILE = fegoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -652,6 +706,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/fego-rn-update/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 				);
 				INFOPLIST_FILE = fego/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -674,6 +729,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/fego-rn-update/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 				);
 				INFOPLIST_FILE = fego/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -702,11 +758,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/fego-rn-update/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 				);
 				INFOPLIST_FILE = "fego-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -736,11 +794,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/fego-rn-update/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
 				);
 				INFOPLIST_FILE = "fego-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -771,6 +831,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.fego-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -795,6 +856,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.fego-tvOSTests";

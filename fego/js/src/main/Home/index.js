@@ -15,7 +15,7 @@ export default class Home extends Page {
         <Button
           style={{ marginTop: 100, marginHorizontal: 20 }}
           type="primary"
-          size="large"
+          size="default"
           textColor="#ffffff"
           onPress={() => this.logout()}
         >测试登出

@@ -4,7 +4,7 @@ export const AppTypes = {
   // 默认版
   main: {
     name: '通用',
-    theme: 'black',
+    theme: 'white',
   },
   // 电商版
   ec: {

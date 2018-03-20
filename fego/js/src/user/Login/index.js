@@ -6,20 +6,35 @@ import { Button, Input, Toast } from 'fego-rn';
 const localStyle = StyleSheet.create({
   text: {
     fontSize: 24,
-    color: Const.textColor2,
+    color: Const.textColor,
     marginTop: 100,
     textAlign: 'center',
     marginBottom: 100,
+  },
+  container: {
+    backgroundColor: '#fff',
   },
 });
 
 export default class LoginPage extends Page {
   constructor(props) {
     super(props);
+    this.name = '';
+    this.pwd = '';
     this.state = {
-      name: '',
-      pwd: '',
+      userInfo: '',
     };
+    UserInfo.isLogin = false;
+  }
+  onReady() {
+    this._initUserInfo();
+  }
+  _initUserInfo = () => {
+    UserInfo.getCacheUserInfo((e) => {
+      this.setState({
+        userInfo: e,
+      });
+    });
   }
   isValid = (name, pwd) => {
     if (!name) {
@@ -33,41 +48,49 @@ export default class LoginPage extends Page {
     }
   }
   doLogin = () => {
-    const { name, pwd } = this.state;
+    const { name, pwd } = this;
     if (this.isValid(name, pwd)) {
-      UserInfo.login();
+      UserInfo.login(name);
       AppNav.root();
     }
   }
   render() {
+    let defaultName;
+    const { name } = this;
+    const { userInfo } = this.state;
+    if (name) {
+      defaultName = name;
+    } else if (userInfo && userInfo.userName) {
+      defaultName = userInfo.userName;
+    }
+    this.name = defaultName;
     return (
       <ScrollView style={Style.container} >
         <Text style={localStyle.text}>账号密码登录</Text>
         <Input
-          style={{ marginLeft: 20, marginRight: 20, paddingRight: 0 }}
-          last
-          value={this.state.name}
+          styles={{
+            container: { marginLeft: 20, marginRight: 20, paddingRight: 0 },
+            input: { backgroundColor: 'transparent' },
+          }}
+          defaultValue={defaultName}
           placeholder="请输入账号"
           onChange={(v) => {
-            this.setState({
-              name: v,
-            });
+            this.name = v;
           }}
         />
         <Input
-          style={{
-            marginLeft: 20,
-            marginRight: 20,
-            marginTop: 10,
-            paddingRight: 0,
+          styles={{
+            container: {
+              marginLeft: 20,
+              marginRight: 20,
+              marginTop: 10,
+              paddingRight: 0,
+            },
+            input: { backgroundColor: 'transparent' },
           }}
-          last
           placeholder="请输入密码"
-          value={this.state.pwd}
           onChange={(v) => {
-            this.setState({
-              pwd: v,
-            });
+            this.pwd = v;
           }}
         />
         <Button
@@ -76,7 +99,7 @@ export default class LoginPage extends Page {
           size="large"
           textColor="#ffffff"
           onPress={() => this.doLogin()}
-        >测试登录
+        >登录
         </Button>
       </ScrollView>
     );

@@ -1,7 +1,11 @@
 import React from 'react';
-import { AppNav } from 'src/common';
+import { AppNav, HttpUtil } from 'src/common';
 import Route from 'src/config/Route';
 import ErrorUtils from 'ErrorUtils';
+
+console.disableYellowBox = true;
+HttpUtil.init();
+
 // import default from '../../../../../../Library/Caches/typescript/2.6/node_modules/@types/react-native-fetch-blob';
 
 // const { NIPRNEventEmitter } = NativeModules;
@@ -31,6 +35,6 @@ const AppNavigator = AppNav.createStackNavigator(Route.routeConf, Route.stackOpt
  * 应用框架
  * 注意：因安卓back键推出应用等会导致App再次创建
  */
-export default() => (
+export default () => (
   <AppNavigator />
 );

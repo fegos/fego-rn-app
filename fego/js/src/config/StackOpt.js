@@ -1,4 +1,4 @@
-import { Message, Icon, Button } from 'fego-rn';
+import { Message, Button } from 'fego-rn';
 import React from 'react';
 import { Const } from 'common';
 
@@ -28,13 +28,12 @@ export default {
     headerBackTitle: null,
     headerLeft: (
       <Button
+        title="返回"
         style={{
-          borderWidth: 0, width: Const.goBackWidth, height: Const.headerNavHeight, alignItems: 'center', justifyContent: 'flex-start', paddingLeft: Const.goBackLeft,
+          borderWidth: 0, width: 60, height: Const.headerNavHeight, alignItems: 'center', justifyContent: 'flex-start', paddingLeft: Const.goBackLeft,
         }}
         onPress={() => { navigation.goBack(); }}
-      >
-        <Icon name="goback" family="nsip" size={20} color={Const.textColor} />
-      </Button>),
+      />),
   }),
 };
 

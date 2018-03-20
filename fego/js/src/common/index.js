@@ -5,7 +5,7 @@ import Const from './Const';
 // import Service from './Service'
 import Page from './Page';
 import UserInfo from './UserInfo';
-
+import HttpUtil from './HttpUtil';
 
 export {
   // Core,
@@ -14,6 +14,7 @@ export {
   Style,
   Const,
   UserInfo,
+  HttpUtil,
   // Service
 };
 // export * from './ui'

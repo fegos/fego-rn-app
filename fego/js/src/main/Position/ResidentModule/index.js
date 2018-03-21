@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, TouchableHighlight } from 'react-native';
+import { View, Text, StyleSheet, TouchableHighlight,Image } from 'react-native';
 import { Style, Page } from 'common';
 import React from 'react';
 import { Icon, Button } from 'fego-rn'
@@ -10,10 +10,10 @@ export default class ResidentModule extends React.Component {
   constructor(props) {
     super(props)
     this.residentList = [
-      { 'name': '扫一扫' },
-      { 'name': '付钱' },
-      { 'name': '收钱' },
-      { 'name': '卡包' }];
+      { 'name': '扫一扫','icon':require('../Assert/account.png') },
+      { 'name': '付钱','icon':require('../Assert/atm.png') },
+      { 'name': '收钱' ,'icon':require('../Assert/clock.png')},
+      { 'name': '卡包' ,'icon':require('../Assert/home.png')}];
 
   }
   _onPress = () => {
@@ -29,7 +29,7 @@ export default class ResidentModule extends React.Component {
           key={this.residentList[index].name}
           onPress={this._onPress}>
           <View style={baseStyle.itemBgView}>
-            <Text style={baseStyle.name}>icon</Text>
+            <Image source={this.residentList[index].icon} style={{ width: 25, height: 25 }} />
             <Text style={baseStyle.name}>{this.residentList[index].name}</Text>
           </View>
         </TouchableHighlight>
@@ -52,8 +52,8 @@ export default class ResidentModule extends React.Component {
 
 var baseStyle = StyleSheet.create({
   container: {
-    height: 120,
-    backgroundColor: 'blue',
+    height: 100,
+    backgroundColor: '#0066ff',
     flexDirection: 'row',
   },
   bgView: {
@@ -67,7 +67,7 @@ var baseStyle = StyleSheet.create({
   },
   itemBgView: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: '#0066ff',
     alignItems: 'center',
     justifyContent: 'center',
   },

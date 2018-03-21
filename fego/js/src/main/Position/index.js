@@ -20,7 +20,7 @@ export default class PositionPage extends Page {
         <ResidentModule />
         <FunctionModule />
         <RefreshView onRefresh={this._onRefresh}>
-          <Text style={{ color: '#000' }}>REST</Text>
+          <Text style={{ color: '#000' }}>可下拉的剩余组件</Text>
         </RefreshView>
       </View>
     );

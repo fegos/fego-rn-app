@@ -65,7 +65,7 @@ export default class LoginPage extends Page {
     }
     this.name = defaultName;
     return (
-      <ScrollView style={Style.container} >
+      <ScrollView style={Style.container} keyboardShouldPersistTaps="handled">
         <Text style={localStyle.text}>账号密码登录</Text>
         <Input
           styles={{
@@ -79,6 +79,7 @@ export default class LoginPage extends Page {
           }}
         />
         <Input
+          type="password"
           styles={{
             container: {
               marginLeft: 20,

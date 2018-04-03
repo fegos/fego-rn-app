@@ -11,17 +11,17 @@ export default class FunctionModule extends React.Component {
   constructor(props) {
     super(props)
     this.functionList = [
-      { 'name': '转账', 'iconName': 'iconName1' },
-      { 'name': '信用卡还款', 'iconName': 'iconName1' },
-      { 'name': '充值中心', 'iconName': 'iconName' },
-      { 'name': '余额宝', 'iconName': 'iconName' },
-      { 'name': '花呗', 'iconName': 'iconName' },
-      { 'name': '滴滴出行', 'iconName': 'iconName' },
-      { 'name': '城市服务', 'iconName': 'iconName' },
-      { 'name': '芝麻信用', 'iconName': 'iconName' },
-      { 'name': '火车票机票', 'iconName': 'iconName' },
-      { 'name': '商家服务', 'iconName': 'iconName' },
-      { 'name': '更多', 'iconName': 'iconName' }];
+      { 'name': '转账', 'iconName': require('../Assert/trade-assurance.png')  },
+      { 'name': '信用卡还款', 'iconName': require('../Assert/Smile.png') },
+      { 'name': '充值中心', 'iconName': require('../Assert/map.png') },
+      { 'name': '余额宝', 'iconName': require('../Assert/auto.png')},
+      { 'name': '花呗', 'iconName':require('../Assert/good.png')},
+      { 'name': '滴滴出行', 'iconName': require('../Assert/electrical.png') },
+      { 'name': '城市服务', 'iconName': require('../Assert/discount.png') },
+      { 'name': '芝麻信用', 'iconName': require('../Assert/discount.png') },
+      { 'name': '火车票机票', 'iconName': require('../Assert/discount.png') },
+      { 'name': '商家服务', 'iconName': require('../Assert/discount.png') },
+      { 'name': '更多', 'iconName': require('../Assert/discount.png') }];
 
   }
 

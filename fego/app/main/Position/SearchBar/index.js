@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, Image, TouchableHighlight } from 'react-native';
-import { Style, Page } from 'common';
+import { Style, Page } from '@/common';
 import React from 'react';
 import { Icon, Button } from 'fego-rn'
 

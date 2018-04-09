@@ -1,6 +1,6 @@
 import React from 'react';
-import { AppNav, HttpUtil } from 'src/common';
-import Route from 'src/config/Route';
+import { AppNav, HttpUtil } from '@/common';
+import Route from '@/config/Route';
 import ErrorUtils from 'ErrorUtils';
 
 console.disableYellowBox = true;

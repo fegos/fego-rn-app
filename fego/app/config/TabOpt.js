@@ -1,7 +1,7 @@
 /**
  * Tab配置文件
  */
-import { Const } from 'common';
+import { Const } from '@/common';
 
 export default {
   tabBarPosition: 'bottom',

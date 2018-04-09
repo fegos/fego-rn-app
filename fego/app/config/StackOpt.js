@@ -1,6 +1,6 @@
 import { Message, Button } from 'fego-rn';
 import React from 'react';
-import { Const } from 'common';
+import { Const } from '@/common';
 
 export default {
   initialRouteName: 'user/Login', // 默认显示界面

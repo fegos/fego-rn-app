@@ -1,5 +1,5 @@
 import { AsyncStorage } from 'react-native';
-import { AppNav } from 'common';
+import AppNav from './AppNav';
 
 const KEY_USER_INFO = 'KEY_USER_INFO';
 export default {

@@ -2,7 +2,7 @@ import {
   View, Text, StyleSheet, Dimensions, Image,
   TouchableHighlight, FlatList, Alert,
 } from 'react-native';
-import { Page, AppNav } from 'common';
+import { Page, AppNav } from '@/common';
 import React from 'react';
 
 import { RefreshView } from 'fego-rn';

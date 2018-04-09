@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, ListView, Image, TouchableHighlight, Platform, Dimensions } from 'react-native';
 import { Carousel, RefreshView, Fetch, Loading, Toast, Tabs } from 'fego-rn';
-import { Const, Page, AppNav } from 'common';
+import { Const, Page, AppNav } from '@/common';
 
 const { width } = Dimensions.get('window');
 const boxW = width * 0.5 - 10;

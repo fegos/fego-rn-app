@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, StyleSheet, Text } from 'react-native';
-import { Style, Page, AppNav, Const, UserInfo } from 'common';
+import { Style, Page, AppNav, Const, UserInfo } from '@/common';
 import { Button, Input, Toast } from 'fego-rn';
 
 const localStyle = StyleSheet.create({

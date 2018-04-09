@@ -1,5 +1,5 @@
 import { View, Text } from 'react-native';
-import { Style, Page } from 'common';
+import { Style, Page } from '@/common';
 import React from 'react';
 import { RefreshView } from 'fego-rn';
 import SearchBar from './SearchBar';

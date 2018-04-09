@@ -5,9 +5,9 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { TabNavigator } from 'react-navigation';
-import MainTabRoute from 'src/main/Route';
-import UserRoute from 'src/user/Route';
-import TestRoute from 'src/test/Route';
+import MainTabRoute from '@/main/Route';
+import UserRoute from '@/user/Route';
+import TestRoute from '@/test/Route';
 import TabOpt from './TabOpt';
 import StackOpt from './StackOpt';
 
@@ -18,7 +18,7 @@ let _StackOpt = StackOpt;
 if (__DEV__) {
   _StackOpt = {
     ...StackOpt,
-    ...require('src/config.dev').default.StackOpt,
+    ...require('@/config.dev').default.StackOpt,
   };
 }
 export default {

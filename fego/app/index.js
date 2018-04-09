@@ -6,11 +6,6 @@ import ErrorUtils from 'ErrorUtils';
 console.disableYellowBox = true;
 HttpUtil.init();
 
-// import default from '../../../../../../Library/Caches/typescript/2.6/node_modules/@types/react-native-fetch-blob';
-
-// const { NIPRNEventEmitter } = NativeModules;
-// const nipEventEmitter = new NativeEventEmitter(NIPRNEventEmitter);
-
 //= ======== 模块初始化 start ==========
 /**
  * 模块初始化，只允许执行一次

@@ -3,18 +3,13 @@
  * @author esky
  */
 import { NavigationActions, StateUtils, StackNavigator } from 'react-navigation';
-// import { Animated, Easing } from 'react-native'
 import { Message } from 'fego-rn';
 import NavDecorator from './NavDecorator';
 import Tool from './Tool';
-// import { reach } from '../../../../../../../../Library/Caches/typescript/2.6/node_modules/@types/hoek';
-// import default from '../../../../../../../../Library/Caches/typescript/2.6/node_modules/@types/gulp-util/node_modules/chalk';
 
 const defaultConfig = {
   rootName: 'Root',
-  // loginName: 'user/Login',
-
-  topRoutes: ['Root', 'user/Login', 'Home', 'Position', 'My'], // 'user/Login',
+  topRoutes: ['Root', 'user/Login', 'Home', 'Position', 'My']
 };
 // 缓存导航容器，防止重复创建
 let NavDecoratorCache;
@@ -23,7 +18,7 @@ export default {
   navigator: null,
   // 导航器类
   Navigator: null,
-  // 是否处于页面切换中（异步动画中)
+  // 是否处于页面切换中（动画中)
   isPageChanging: false,
   // 原方法引用
   defaultGetStateForAction: null,
